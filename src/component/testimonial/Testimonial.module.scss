@@ -1,0 +1,62 @@
+.testimonial_pane_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding-top: 2rem;
+  background-image: url(../../assets/testimonial.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(10%);
+  // filter: sepia(30%);
+  // filter: contrast(80%);
+  .testimonial__dot {
+    color: black;
+  }
+  .ant-carousel {
+    width: 100% !important;
+  }
+  .carousel__card {
+    background-color: transparent;
+    width: 100%;
+    min-height: 20rem;
+    border: 0;
+
+    .carousel__card__box {
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: black;
+      .carousel__box__container {
+        display: flex;
+        padding: 2rem 0rem;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        .carousel__box__header {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          width: 60%;
+          font-weight: 600;
+          font-size: 1.5rem;
+        }
+        .carousel__box__header__image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .carousel__header__image {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

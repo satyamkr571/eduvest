@@ -1,0 +1,22 @@
+.connect_container {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  top: 1.5rem;
+  gap: 1.5rem;
+  background-color: #cacaca;
+  padding: 1rem;
+  border-radius: 3%;
+  z-index: 1;
+  .connect__icon {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 0.125rem;
+    :hover {
+      font-weight: 900;
+      cursor: pointer;
+      color: rgb(111, 229, 93);
+    }
+  }
+}

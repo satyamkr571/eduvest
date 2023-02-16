@@ -1,0 +1,24 @@
+.form_page_container {
+  background-image: linear-gradient(75deg, #c8d5db 0%, #e2f2f6 100%);
+
+  .form_page__tab_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+  .form_page__form_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    padding: 1.5rem;
+    background-image: url(../../assets/formbackground.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

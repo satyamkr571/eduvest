@@ -1,0 +1,28 @@
+.banner_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 10vh;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  .banner__head {
+    font-weight: 500;
+  }
+  .banner__card {
+    display: flex;
+    gap: 2rem;
+    color: white;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
